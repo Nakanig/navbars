@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun init() {
-        btnsubmit = findViewById(R.id.btnsubmit)
+        btnsubmit = findViewById(R.id.toastBTN)
         btnsubmit.setOnClickListener(this)
 
 
